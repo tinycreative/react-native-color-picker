@@ -1,0 +1,13 @@
+{
+  "name": "RNColorPicker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "colr": "1.2.2",
+    "react-native": "0.16.0",
+    "react-native-linear-gradient": "brentvatne/react-native-linear-gradient"
+  }
+}
