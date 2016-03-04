@@ -12,8 +12,6 @@ import React, {
 import colr from 'colr';
 import LinearGradient from 'react-native-linear-gradient';
 
-let window = Dimensions.get('window');
-
 export default HuePicker = React.createClass({
   componentWillMount: function() {
     this._panResponder = PanResponder.create({
@@ -83,7 +81,7 @@ var styles = StyleSheet.create({
   },
 
   gradient: {
-    width: window.width,
+    flex: 1,
     height: HUE_SIZE,
     justifyContent: 'center',
     alignItems: 'center',
